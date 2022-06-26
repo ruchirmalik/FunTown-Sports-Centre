@@ -1,4 +1,4 @@
-# FunTown-Sports-Centre
+
 # FunTown Sport Center DB Application 
 
 After building the project, run the `localDB.sql` script to set up local database and populate tables. 
