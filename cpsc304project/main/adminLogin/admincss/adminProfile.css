@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(270deg, #ffead1, #ffb6bd, #e0b5ff);
+  background-size: 150% 150%;
+  animation: backgroundAnimation 10s ease infinite;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+#createAppForm {
+  text-align: left;
+}
+
+.details {
+  margin: 50px 50px 50px 50px;
+  background-color: white;
+  padding: 5% 10% 10% 10%;
+  border-radius: 20px;
+  box-shadow: 0 30px 50px -20px rgba(14, 0, 47, 0.21);
+}
+
+.details:hover {
+  transition-duration: 0.5s;
+  margin: 70px 10px 10px 10px;
+  background-color: rgb(237, 245, 245);
+  padding: 5% 10% 1% 10%;
+  border-radius: 100px;
+  box-shadow: 0 30px 50px -20px rgba(14, 0, 47, 0.21);
+}
+
+.submit {
+      cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: linear-gradient(to right, #26A0BE, #59C7E2);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    }
+    .submit:hover {
+      transition-duration: 1.5s;
+      cursor: pointer;
+      border-radius: 10px;
+      color: #fff;
+      background: black;
+      border: 0;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 13px;
+      box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  } 
+
+.button {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #26A0BE, #59C7E2);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
